@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HereosComponent } from './hereos/hereos.component';
 import { FormsModule } from '@angular/forms';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HereosComponent
+    HereosComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
